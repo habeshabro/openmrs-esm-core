@@ -1,4 +1,5 @@
 import fullLogo from './openmrs-logo-full.svg';
+import stPeterLogo from './stPeter.svg';
 import partialLogo from './openmrs-logo-partial.svg';
 import iconLogo from './openmrs-logo-icon.svg';
 import whiteLogo from './openmrs-logo-white.svg';
@@ -15,4 +16,5 @@ export function setupLogo() {
   addSvg('omrs-logo-icon-mono', iconLogo);
   addSvg('omrs-logo-icon-grey', iconLogo);
   addSvg('omrs-logo-white', whiteLogo);
+  addSvg('stPeterLogo', stPeterLogo);
 }
